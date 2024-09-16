@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"     # Set the publish directory to dist
+  command = "npm run build"  # The command to build your Vite app
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
